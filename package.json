@@ -1,0 +1,27 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "This is the Library Management API backend for the management of user and the books",
+  "homepage": "https://github.com/kushalrao0109/Library-Management-System#readme",
+  "bugs": {
+    "url": "https://github.com/kushalrao0109/Library-Management-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushalrao0109/Library-Management-System.git"
+  },
+  "license": "ISC",
+  "author": "Kushal Rao",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
